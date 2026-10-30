@@ -1,0 +1,21 @@
+# Crocco Painting & Venetian
+
+> Crocco Painting & Venetian provides residential and commercial painting, Venetian plaster, decorative finishes and colour consultation across Melbourne and South East Melbourne, Australia.
+
+## Main pages
+
+- [Home](https://croccopainting.com.au/): Painting and decorative finish services, gallery and quote enquiry form.
+- [About](https://croccopainting.com.au/about.html): Business background, team and credentials.
+
+## Services
+
+- [Residential painting](https://croccopainting.com.au/residential.html): Interior and exterior home painting, repaints, preparation and colour guidance.
+- [Commercial painting](https://croccopainting.com.au/commercial.html): Painting for workplaces, retail, hospitality and commercial properties.
+- [Venetian plaster](https://croccopainting.com.au/venetian-plaster.html): Handcrafted plaster and decorative finishes for residential and commercial interiors.
+
+## Contact
+
+- Phone: +61 414 397 627
+- Email: info@croccopainting.com.au
+- Service area: Melbourne and South East Melbourne, Victoria, Australia.
+- [Request a quote](https://croccopainting.com.au/#contact)

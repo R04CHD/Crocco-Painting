@@ -1,258 +1,505 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-AU">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO & Metadata -->
-    <title>Painters South East Melbourne | Crocco Painting | Residential & Commercial</title>
-    <meta name="description" content="Crocco Painting: Premium residential & commercial painters in South East Melbourne. Dulux Products Endorser, 5-year warranty. Serving Pakenham, Berwick & Frankston.">
-    <link rel="canonical" href="https://croccopainting.com.au/">
-    
-    <!-- Assets -->
-    <link rel="icon" type="image/png" sizes="16x15" href="img/Crocco-Painting-FavIcon.png">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Local Business Schema -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1c1c1a" />
+    <meta
+      name="description"
+      content="Bespoke painting and Venetian plaster finishes for homes and commercial spaces across Melbourne."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://croccopainting.com.au/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:site_name" content="Crocco Painting &amp; Venetian" />
+    <meta
+      property="og:title"
+      content="Crocco Painting &amp; Venetian — Melbourne Painters &amp; Venetian Plaster"
+    />
+    <meta
+      property="og:description"
+      content="Residential and commercial painting, Venetian plaster and bespoke decorative finishes across Melbourne."
+    />
+    <meta property="og:url" content="https://croccopainting.com.au/" />
+    <meta
+      property="og:image"
+      content="https://croccopainting.com.au/img/Banner%201%20Venetian.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Crocco Painting &amp; Venetian — Melbourne Painters &amp; Venetian Plaster"
+    />
+    <meta
+      name="twitter:description"
+      content="Residential and commercial painting, Venetian plaster and bespoke decorative finishes across Melbourne."
+    />
+    <meta
+      name="twitter:image"
+      content="https://croccopainting.com.au/img/Banner%201%20Venetian.png"
+    />
+    <title>
+      Crocco Painting &amp; Venetian | Melbourne Painters &amp; Venetian Plaster
+    </title>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "PaintingBusiness",
-      "name": "Crocco Painting",
-      "url": "https://croccopainting.com.au",
-      "telephone": "+61414397627",
-      "image": "https://croccopainting.com.au/img/Crocco-Painting-Logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Pakenham",
-        "addressRegion": "VIC",
-        "postalCode": "3810",
-        "addressCountry": "AU"
-      },
-      "areaServed": ["Pakenham", "Berwick", "Frankston", "Clyde North", "Cranbourne"],
-      "priceRange": "$$",
-      "openingHours": "Mo-Fr 07:00-17:00"
-    }
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://croccopainting.com.au/#website",
+            "url": "https://croccopainting.com.au/",
+            "name": "Crocco Painting & Venetian",
+            "inLanguage": "en-AU",
+            "publisher": { "@id": "https://croccopainting.com.au/#business" }
+          },
+          {
+            "@type": "HousePainter",
+            "@id": "https://croccopainting.com.au/#business",
+            "name": "Crocco Painting & Venetian",
+            "url": "https://croccopainting.com.au/",
+            "image": "https://croccopainting.com.au/img/Logo.png",
+            "telephone": "+61414397627",
+            "email": "info@croccopainting.com.au",
+            "description": "Residential and commercial painting, Venetian plaster and decorative finishes across Melbourne and South East Melbourne.",
+            "areaServed": [
+              { "@type": "City", "name": "Melbourne" },
+              { "@type": "AdministrativeArea", "name": "South East Melbourne" }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer enquiries",
+              "telephone": "+61414397627",
+              "email": "info@croccopainting.com.au",
+              "availableLanguage": "English"
+            },
+            "knowsAbout": [
+              "Residential painting",
+              "Commercial painting",
+              "Venetian plaster",
+              "Decorative finishes",
+              "Colour consultation"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://croccopainting.com.au/#webpage",
+            "url": "https://croccopainting.com.au/",
+            "name": "Crocco Painting & Venetian | Melbourne Painters & Venetian Plaster",
+            "description": "Residential and commercial painting, Venetian plaster and bespoke decorative finishes across Melbourne.",
+            "inLanguage": "en-AU",
+            "isPartOf": { "@id": "https://croccopainting.com.au/#website" },
+            "about": { "@id": "https://croccopainting.com.au/#business" },
+            "mainEntity": { "@id": "https://croccopainting.com.au/#business" }
+          }
+        ]
+      }
     </script>
-</head>
-<body>
-    <a href="#main-content" class="skip-link">Skip to content</a>
-
-<header role="banner" class="main-header">
-    <nav class="container nav-flex" aria-label="Primary Navigation">
-        <!-- Logo Link: Adjusted for accessibility and SVG support -->
-        <a href="index.html" class="logo-link" aria-label="Crocco Painting Home">
-            <img src="img/Crocco-Painting-Logo.png" 
-                 alt="Crocco Painting Logo" 
-                 class="header-logo" 
-                 loading="eager">
-        </a>
-        
-        <!-- Mobile Menu Toggle: Improved ARIA attributes -->
-        <button class="menu-toggle" 
-                aria-label="Toggle Menu" 
-                aria-expanded="false" 
-                aria-controls="nav-menu">
-            <span class="hamburger" aria-hidden="true"></span>
-        </button>
-
-        <ul class="nav-links" id="nav-menu" role="list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="#quote-tool" class="btn-primary">Free Quote</a></li>
-        </ul>
-    </nav>
-</header>
-
-    <main id="main-content">
-        <!-- Hero Section -->
-        <section class="hero" aria-labelledby="hero-title">
-            <div class="container hero-grid">
-                <div class="hero-text">
-                    <h1 id="hero-title">Premium <span class="accent">Architectural</span> Painting in South East Melbourne</h1>
-                    <p>Expert residential and commercial finishes with a 5-year workmanship guarantee. Dulux Products Endorser.</p>
-                    <div class="cta-group">
-                        <a href="#quote-tool" class="btn-primary">Start Instant Estimate</a>
-                        <a href="services.html" class="btn-secondary">Explore Services</a>
-                    </div>
-                </div>
-                
-                <div class="hero-image">
-                    <div class="comparison-slider" role="region" aria-label="Before and after comparison of our painting work">
-                        <div class="image-before" aria-hidden="true">
-                            <img src="img/before-exterior.webp" alt="House exterior before painting" loading="eager">
-                        </div>
-                        <div class="image-after" id="after-image" aria-hidden="true">
-                            <img src="img/after-exterior.webp" alt="House exterior after premium architectural painting" loading="eager">
-                        </div>
-                        <input type="range" min="0" max="100" value="50" class="slider-input" id="comparison-slider" aria-label="Slide to compare before and after images">
-                        <div class="slider-line" aria-hidden="true">
-                            <div class="slider-button"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Trust Signals -->
-        <section class="trust-signals" aria-label="Accreditations and Trust">
-            <div class="container badge-grid">
-                <div class="badge-item">
-                    <img src="img/Dulux_logo.webp" alt="Dulux Products Endorser" loading="lazy">
-                </div>
-                <div class="badge-item">
-                    <img src="img/master-painters-australia-vic-tas.webp" alt="Master Painter" loading="lazy">
-                </div>
-                <div class="badge-item">
-                    <div class="stars" aria-hidden="true">★★★★★</div>
-                    <p><strong>5.0 Customer Rating</strong></p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Preview -->
-        <section class="services-preview container">
-            <h2 class="section-title">Specialist Painting Services</h2>
-            <div class="card-grid">
-                <article class="card">
-                    <h3>Residential Painting</h3>
-                    <p>High-end interior and exterior solutions for modern Melbourne homes.</p>
-                    <a href="services.html#residential" class="card-link" aria-label="View Residential Painting Services">View Residential &rarr;</a>
-                </article>
-                <article class="card">
-                    <h3>Commercial Projects</h3>
-                    <p>Reliable, large-scale painting for warehouses and offices in Pakenham.</p>
-                    <a href="services.html#commercial" class="card-link" aria-label="View Commercial Painting Services">View Commercial &rarr;</a>
-                </article>
-                <article class="card">
-                    <h3>Epoxy Flooring</h3>
-                    <p>Durable, chemical-resistant coatings for garages and industrial spaces.</p>
-                    <a href="services.html#epoxy" class="card-link" aria-label="View Epoxy Flooring Services">View Epoxy &rarr;</a>
-                </article>
-            </div>
-        </section>
-
-        <!-- Multi-Step Quote Tool: Fixed Nesting & Form Structure -->
-<section id="quote-tool" class="quote-tool">
-    <div class="container form-container">
-        <div id="quote-header">
-            <h2>Get Your Instant Estimate</h2>
-            <p>Complete the steps below for a tailored quote.</p>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/service-images.css" />
+    <link rel="stylesheet" href="css/services-nav.css" />
+    <link rel="stylesheet" href="css/header-glass.css" />
+    <link rel="stylesheet" href="css/site-footer.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a
+        class="brand"
+        href="#home"
+        aria-label="Crocco Painting and Venetian home"
+        ><img src="img/Logo.png" alt="Crocco Painting & Venetian"
+      /></a>
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Open navigation"
+      >
+        <span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="about.html">About</a>
+        <div class="nav-dropdown">
+          <a href="#services">Services</a>
+          <div class="nav-submenu">
+            <a href="residential.html">Residential painting</a
+            ><a href="commercial.html">Commercial painting</a
+            ><a href="venetian-plaster.html">Venetian plaster</a>
+          </div>
         </div>
+        <a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Get a free quote <span>→</span></a>
+    </header>
 
-        <!-- Success Message (Hidden by default) -->
-        <div id="form-success" style="display:none;" aria-live="assertive">
-            <div class="success-icon">✅</div>
-            <h3>Request Received!</h3>
-            <p>Thanks for reaching out. One of our team members will contact you shortly to finalise your estimate.</p>
-            <button class="btn-primary" onclick="location.reload()">Start New Estimate</button>
+    <main>
+      <section class="hero" id="home" aria-label="Venetian plaster interior">
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Timeless surfaces</p>
+          <h1>Venetian<br />Plaster</h1>
+          <p class="hero-description">
+            Elevate your interiors with bespoke finishes that bring depth,
+            texture and timeless character to every space.
+          </p>
+          <a class="button button-light" href="#services"
+            >Explore the collection <span>→</span></a
+          >
         </div>
+        <a class="scroll-cue" href="#services" aria-label="Scroll to services"
+          ><span></span
+        ></a>
+      </section>
 
-        <form action="https://formspree.io/f/xqenwegq" method="POST" id="quote-form">
-            <!-- Honeypot: Anti-Spam (Hidden from users) -->
-            <label class="sr-only" style="display:none;">Don't fill this out if you're human: 
-                <input name="_gotcha" style="display:none;">
-            </label>
+      <section class="services-strip" aria-label="Our services">
+        <article class="service-blurb">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <rect x="6" y="7" width="25" height="10" rx="2" />
+            <path d="M31 12h5a3 3 0 0 1 3 3v7h-8m0 0v5l-8 7v7m-3 0h6" />
+          </svg>
+          <h2>Interior &amp; exterior painting</h2>
+          <p>Premium finishes for residential and commercial spaces.</p>
+        </article>
+        <article class="service-blurb">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M6 31 34 8l8 9-27 25zM21 25l8 7-6 6-7-7m7 7-5 5" />
+          </svg>
+          <h2>Venetian plaster &amp; decorative finishes</h2>
+          <p>
+            Handcrafted textures that bring depth and individuality to your
+            interiors.
+          </p>
+        </article>
+        <article class="service-blurb">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M9 7h30v8H9zm3 8h27v8H12zm3 8h24v8H15zm3 8h21v8H18z" />
+          </svg>
+          <h2>Colour consultation &amp; design</h2>
+          <p>Expert guidance to bring your vision to life.</p>
+        </article>
+      </section>
 
-            <div id="form-steps">
-                <!-- Step 1: Service Type -->
-                <div class="step active" data-step="1" id="step-1">
-                    <p class="step-counter">Step 1 of 3</p>
-                    <h3>What are we painting?</h3>
-                    <div class="option-grid">
-                        <input type="hidden" name="Service" id="selected-service">
-                        <button type="button" class="option-btn" onclick="nextQuoteStep('Interior')">Interior</button>
-                        <button type="button" class="option-btn" onclick="nextQuoteStep('Exterior')">Exterior</button>
-                        <button type="button" class="option-btn" onclick="nextQuoteStep('Epoxy')">Epoxy Floor</button>
-                        <button type="button" class="option-btn" onclick="nextQuoteStep('Consult')">Colour Consultation</button>
-                    </div>
-                </div>
+      <section
+        class="collection"
+        id="services"
+        aria-labelledby="collection-title"
+      >
+        <div
+          class="collection-photo"
+          role="img"
+          aria-label="Dining room with warm, textured Venetian plaster walls"
+        ></div>
+        <div class="collection-copy">
+          <p class="eyebrow">The collection</p>
+          <h2 id="collection-title">Muro Naturale</h2>
+          <span class="short-rule"></span>
+          <p>
+            A contemporary finish inspired by natural stone, with subtle
+            textures and a refined, sophisticated look for modern spaces.
+          </p>
+          <a class="button button-dark" href="#gallery"
+            >View finishes <span>→</span></a
+          >
+        </div>
+        <div
+          class="texture-photo"
+          role="img"
+          aria-label="Close detail of a warm mineral plaster finish"
+        ></div>
+      </section>
 
-                <!-- Step 2: Details (Hidden) -->
-                <div class="step" data-step="2" id="step-2" style="display:none;">
-                    <p class="step-counter">Step 2 of 3</p>
-                    <h3>Project Details</h3>
-                    <div class="input-group">
-                        <textarea name="Details" placeholder="Tell us about the project (e.g., number of rooms, approximate size)..." required aria-label="Project details"></textarea>
-                    </div>
-                    <button type="button" class="btn-primary" onclick="goToStep(3)">Next: Contact Info</button>
-                </div>
+      <section class="service-cards" aria-label="Painting and plaster services">
+        <a
+          class="service-card residential"
+          id="residential"
+          href="residential.html"
+          ><span>01 / Painting</span>
+          <h2>Residential<br />painting</h2>
+          <b aria-hidden="true">↗</b></a
+        >
+        <a
+          class="service-card commercial"
+          id="commercial"
+          href="commercial.html"
+          ><span>02 / Painting</span>
+          <h2>Commercial<br />painting</h2>
+          <b aria-hidden="true">↗</b></a
+        >
+        <a class="service-card venetian" href="venetian-plaster.html"
+          ><span>03 / Decorative finishes</span>
+          <h2>Venetian<br />plaster</h2>
+          <b aria-hidden="true">↗</b></a
+        >
+      </section>
 
-                <!-- Step 3: Contact (Hidden) -->
-                <div class="step" data-step="3" id="step-3" style="display:none;">
-                    <p class="step-counter">Step 3 of 3</p>
-                    <h3>Final Details</h3>
-                    <div class="input-group">
-                        <input type="text" name="Name" placeholder="Your Name" required aria-label="Full name">
-                        <input type="email" name="Email" placeholder="Email Address" required aria-label="Email address">
-                        <input type="tel" name="Phone" placeholder="Phone Number" required aria-label="Phone number">
-                    </div>
-                    <button type="submit" class="btn-primary" id="submit-btn">Submit Request</button>
-                </div>
-            </div>
+      <!-- EDITOR: No product technical data sheets were provided. Confirm breathability, alkalinity, surface mould resistance and durability for the exact Crocco product, substrate, sealer and care system before publishing these claims. -->
+      <section class="lime-section" id="venetian">
+        <div
+          class="lime-photo"
+          role="img"
+          aria-label="Sunlight revealing natural plaster texture"
+        ></div>
+        <div class="lime-content">
+          <p class="eyebrow">Timeless finishes</p>
+          <h2>Timeless beauty.<br />Naturally considered.</h2>
+          <h3>
+            More than a beautiful wall. A thoughtful choice for your space.
+          </h3>
+          <p class="lime-body">
+            Discover the beauty of lime-based Venetian plaster: a breathable
+            mineral finish with natural character and lasting appeal. Depending
+            on the product system and finish, lime-based plaster may allow water
+            vapour to pass through and its alkalinity can help resist surface
+            mould growth. Expertly applied and properly cared for, it creates a
+            durable finish that develops character over time.
+          </p>
+          <div class="benefits">
+            <article>
+              <svg viewBox="0 0 40 40" aria-hidden="true">
+                <path
+                  d="M20 35S7 25 10 15C13 6 27 4 31 5c0 12-2 25-11 30zm0 0c0-10 4-17 10-25"
+                />
+              </svg>
+              <h4>Breathable mineral finish</h4>
+              <p>
+                A lime-based finish that may allow water vapour to pass through.
+              </p>
+            </article>
+            <article>
+              <svg viewBox="0 0 40 40" aria-hidden="true">
+                <path
+                  d="m20 4 13 8v16l-13 8-13-8V12zM7 12l13 8 13-8M20 20v16m-8-21 13 16m3-16L12 31"
+                />
+              </svg>
+              <h4>Natural surface properties</h4>
+              <p>High alkalinity may help resist surface mould growth.</p>
+            </article>
+            <article>
+              <svg viewBox="0 0 40 40" aria-hidden="true">
+                <path
+                  d="M4 20c4-9 9-13 16-13s12 4 16 13c-4 9-9 13-16 13S8 29 4 20zm16-6a6 6 0 1 0 0 12 6 6 0 0 0 0-12z"
+                />
+              </svg>
+              <h4>Lasting character</h4>
+              <p>
+                A durable, handcrafted finish that develops character over time.
+              </p>
+            </article>
+          </div>
+          <a class="button button-dark" href="#contact"
+            >Discover your finish <span>→</span></a
+          >
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-copy">
+          <p class="eyebrow">About us</p>
+          <h2>Quality finishes.<br />Lasting results.</h2>
+          <p>
+            At Crocco Painting &amp; Venetian, we combine skilled craftsmanship,
+            attention to detail and a passion for beautiful surfaces. From
+            residential painting to bespoke decorative finishes, we help bring
+            your vision to life across Melbourne.
+          </p>
+          <a class="button button-dark" href="about.html"
+            >About Crocco <span>→</span></a
+          >
+        </div>
+        <div
+          class="about-photo"
+          role="img"
+          aria-label="Craftsperson applying a hand-finished plaster surface"
+        ></div>
+        <div class="about-values">
+          <div>
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <path
+                d="m5 11 6-6 9 9-6 6zm6 6 25 25m-22-28 4-4 4 4-4 4M43 11l-6-6-9 9 6 6zm-6 6L12 42m22-28-4-4-4 4 4 4"
+              /></svg
+            ><span>Skilled<br />craftsmanship</span>
+          </div>
+          <div>
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <path
+                d="M12 6h24l8 12-20 25L4 18zM4 18h40M12 6l5 12 7-12 7 12 5-12M17 18l7 25 7-25M17 18h14"
+              /></svg
+            ><span>Premium<br />materials</span>
+          </div>
+          <div>
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <path
+                d="M6 12h36v5H6zm4 5h28v5H10zm2 0c-5 0-7-3-5-7s8-3 9 1-3 6-7 3m24 3c5 0 7-3 5-7s-8-3-9 1 3 6 7 3M14 22v18m7-18v18m6-18v18m7-18v18M8 40h32v4H8z"
+              /></svg
+            ><span>Attention<br />to detail</span>
+          </div>
+          <div>
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M5 42V19l19-14 19 14v23M17 42V27h14v15M5 19h38" /></svg
+            ><span>Residential &amp;<br />commercial</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected finishes</p>
+            <h2>Surface &amp; space</h2>
+          </div>
+          <div class="gallery-filters" role="group" aria-label="Filter gallery">
+            <button class="filter active" data-filter="all">All</button
+            ><button class="filter" data-filter="painting">Painting</button
+            ><button class="filter" data-filter="venetian">
+              Venetian plaster
+            </button>
+          </div>
+        </div>
+        <p class="gallery-note">
+          Examples of our recent Crocco Painting and Venetian plaster projects
+          shown for inspiration.
+        </p>
+        <div class="gallery-grid">
+          <button
+            class="gallery-item gallery-wide"
+            data-category="venetian"
+            data-image="img/Banner 1 Venetian.png"
+            aria-label="Enlarge warm Venetian plaster interior"
+          >
+            <img
+              src="img/Banner 1 Venetian.png"
+              alt="Sunlit interior with warm textured plaster walls"
+              loading="lazy"
+            /><span>Warm mineral tones <i>↗</i></span></button
+          ><button
+            class="gallery-item"
+            data-category="venetian"
+            data-image="img/Imagen 1 maim page.webp"
+            aria-label="Enlarge natural plaster interior"
+          >
+            <img
+              src="img/Imagen 1 maim page.webp"
+              alt="Natural plaster wall and sculptural stair detail"
+              loading="lazy"
+            /><span>Natural stone character <i>↗</i></span></button
+          ><button
+            class="gallery-item"
+            data-category="painting"
+            data-image="img/3D1412D8-6D03-4C19-AAD0-6D26711E0897.webp"
+            aria-label="Enlarge dining room interior"
+          >
+            <img
+              src="img/3D1412D8-6D03-4C19-AAD0-6D26711E0897.webp"
+              alt="Contemporary dining room with textured walls"
+              loading="lazy"
+            /><span>Considered interiors <i>↗</i></span></button
+          ><button
+            class="gallery-item"
+            data-category="venetian"
+            data-image="img/Imagen 3 Main Page.webp"
+            aria-label="Enlarge close-up of plaster texture"
+          >
+            <img
+              src="img/Imagen 3 Main Page.webp"
+              alt="Close-up of warm, handcrafted plaster surface"
+              loading="lazy"
+            /><span>Handcrafted texture <i>↗</i></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Start a conversation</p>
+          <h2>Let’s create something exceptional.</h2>
+          <p>
+            Tell us about your project and discover the right finish for your
+            space.
+          </p>
+          <div class="contact-details">
+            <span>Melbourne, Australia</span
+            ><span>Painting · Decorative finishes · Colour consultation</span>
+            <a href="tel:+61414397627">0414 397 627</a>
+          </div>
+        </div>
+        <form
+          id="quote-form"
+          action="https://formspree.io/f/xqenwegq"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="_gotcha"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+            hidden
+          />
+          <div class="form-row">
+            <label>Name<input name="name" autocomplete="name" required /></label
+            ><label
+              >Email<input
+                type="email"
+                name="email"
+                autocomplete="email"
+                required
+            /></label>
+          </div>
+          <div class="form-row">
+            <label
+              >Phone<input type="tel" name="phone" autocomplete="tel" /></label
+            ><label
+              >Project suburb<input name="suburb" autocomplete="address-level2"
+            /></label>
+          </div>
+          <label
+            >Service required<select name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option>Interior &amp; exterior painting</option>
+              <option>Venetian plaster &amp; decorative finishes</option>
+              <option>Colour consultation &amp; design</option>
+              <option>Not sure yet</option>
+            </select></label
+          ><label
+            >Tell us about your project<textarea
+              name="project"
+              rows="3"
+              required
+            ></textarea></label
+          ><button class="button button-light" type="submit">
+            Request a free quote <span>→</span>
+          </button>
+          <p
+            class="form-status"
+            id="form-status"
+            role="status"
+            aria-live="polite"
+          >
+            Your enquiry will be sent via Formspree.
+          </p>
         </form>
-    </div>
-</section>
+      </section>
     </main>
-
-    <!-- Global Sticky CTA -->
-    <a href="tel:+61414397627" class="sticky-call" aria-label="Call Crocco Painting on 0414 397 627">
-        <span class="icon" aria-hidden="true">📞</span>
-        <span class="text">Call Now</span>
-    </a>
-
-    <footer class="main-footer" role="contentinfo">
-        <div class="container footer-grid">
-            <div class="footer-column brand-info">
-                <a href="index.html" class="footer-logo">
-                    <strong>CROCCO</strong> PAINTING
-                </a>
-                <p class="footer-bio">South East Melbourne's premier choice for high-end residential, commercial, and industrial painting. Dulux Products Endorser.</p>
-                <div class="footer-socials">
-                    <!-- Social icons here as before -->
-                </div>
-            </div>
-
-            <div class="footer-column">
-                <h4 class="footer-heading">Services</h4>
-                <ul class="footer-links">
-                    <li><a href="services.html#residential">Residential Painting</a></li>
-                    <li><a href="services.html#commercial">Commercial Painting</a></li>
-                    <li><a href="services.html#epoxy">Epoxy Flooring</a></li>
-                    <li><a href="services.html#fence">Fence Painting</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h4 class="footer-heading">Service Areas</h4>
-                <ul class="footer-links">
-                    <li>Pakenham (3810)</li>
-                    <li>Berwick (3806)</li>
-                    <li>Frankston (3199)</li>
-                    <li>Clyde North (3978)</li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h4 class="footer-heading">Get In Touch</h4>
-                <ul class="footer-contact">
-                    <li><strong>Phone:</strong> <a href="tel:+61414397627">0414 397 627</a></li>
-                    <li><strong>Email:</strong> <a href="mailto:info@croccopainting.com.au">info@croccopainting.com.au</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container bottom-flex">
-                <p>&copy; 2026 Crocco Painting. ABN: 19 632 192 474</p>
-                <nav class="legal-links" aria-label="Legal Links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </nav>
-            </div>
-        </div>
+    <footer class="site-footer">
+      <a href="#top"
+        ><img src="img/Logo.png" alt="Crocco Painting & Venetian"
+      /></a>
+      <p>Thoughtful finishes for Melbourne spaces.</p>
+      <span class="business-number">ABN: 19 632 192 474</span>
+      <a class="back-top" href="#top">Back to top ↑</a
+      ><small>© <span id="year"></span> Crocco Painting &amp; Venetian</small>
     </footer>
-
-    <script src="js/main.js"></script>
-</body>
+    <dialog class="lightbox" aria-label="Enlarged gallery image">
+      <button class="lightbox-close" aria-label="Close enlarged image">×</button
+      ><img alt="" />
+    </dialog>
+    <script src="js/script.js"></script>
+  </body>
 </html>
